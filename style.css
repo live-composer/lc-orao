@@ -1,0 +1,362 @@
+/*
+	Theme Name: Orao
+	Theme URI: http://themeforest.net/user/DanyDuchaine
+	Author: DanyDuchaine
+	Author URI: http://themeforest.net/user/DanyDuchaine
+	Description: Portfolio theme powered by Live Composer.
+	Version: 1.0
+	License: GPL2
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/**
+ * Reset CSS
+ */
+
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,iframe,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline}html{font-size:62.5%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{background:#fff}article,aside,details,figcaption,figure,footer,header,main,nav,section{display:block}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,td,th{font-weight:400;text-align:left}blockquote:after,blockquote:before,q:after,q:before{content:""}blockquote,q{quotes:"" ""}a:focus{outline:thin dotted}a:active,a:hover{outline:0}a img{border:0}img, embed, iframe, object { max-width: 100%; }img { height: auto; }
+
+/**
+ * General Elements
+ */
+
+select {
+	padding: 10px;
+	max-width: 100%;
+	border: 1px solid #e5e5e5;
+}
+
+.dslc-widget select {
+	width: 100%;
+}
+
+table { 
+	border-spacing: 0; 
+	margin: 0 0 20px 0; 
+	width: 100%; 
+	border-right: 1px solid rgb(224, 224, 224);
+	border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+	table caption {
+		font-weight: bold; 
+		margin-bottom: 10px;
+	}
+	
+	td, th {
+		text-align: center;
+		border: 1px solid rgb(224, 224, 224);
+		border-bottom: 0;
+		border-right: 0;
+		padding: 5px;
+		vertical-align: middle;
+	}
+	
+	thead {
+		background: rgb(26, 188, 156);
+		color: #fff;
+	}
+
+		thead th {
+			border: 0;
+		}
+
+/** 
+ * General Typogaphy
+ */
+
+body {
+	color: rgb(154, 154, 154);
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Roboto;	
+	line-height: 29px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto";
+}
+
+h1 {
+	color: rgb(63, 63, 63);
+	font-size: 35px;
+	line-height: 47px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: rgb(63, 63, 63);
+	font-size: 31px;
+	line-height: 40px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+h3 {
+	color: rgb(63, 63, 63);
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+h4 {
+	color: rgb(63, 63, 63);
+	font-size: 25px;
+	line-height: 36px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+h5 {
+	color: rgb(63, 63, 63);
+	font-size: 22px;
+	line-height: 33px;
+	font-weight: 600;
+}
+
+h6 {
+	color: rgb(63, 63, 63);
+	font-size: 19px;
+	line-height: 29px;
+	font-weight: 600;
+}
+
+p { margin-bottom: 25px; }
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: #fd4970;
+}
+
+a:active,
+a:focus {
+	outline: none;
+}
+
+input {
+	max-width: 100%;
+}
+
+.comment-form-name,
+.comment-form-email,
+.comment-form-website {
+	width: 31%;
+	margin-right: 3%;
+	display: inline-block;
+}
+
+.comment-form-website {
+	margin-right: 0;
+}
+
+.dslc-gallery-thumb-inner img { width: 100%; }
+
+html {
+	overflow-x: hidden;
+}
+
+.dslc-navigation li {
+	margin-bottom: 0;
+}
+
+.dslc-navigation .menu ul li {
+	position: relative;
+}
+
+	.dslc-navigation .menu ul ul { 
+		top: -15px;
+		margin-left: 10px;
+	}
+
+
+/**
+ * WordPress Classes
+ */
+
+.alignnone { margin: 5px 20px 20px 0; }
+.aligncenter, div.aligncenter { display:block; margin: 5px auto 5px auto; }
+.alignright { float:right; margin: 5px 0 20px 20px; }
+.alignleft { float:left; margin: 5px 20px 20px 0; }
+.aligncenter { display: block; margin: 5px auto 5px auto; }
+
+a img.alignright { float:right; margin: 5px 0 20px 20px; }
+a img.alignnone { margin: 5px 20px 20px 0; }
+a img.alignleft { float:left; margin: 5px 20px 20px 0; }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto }
+
+.wp-caption { background: #fff; border: 1px solid #f0f0f0; max-width: 96%; /* Image does not overflow the content area */ padding: 5px 3px 10px; text-align: center; }
+.wp-caption.alignnone { margin: 5px 20px 20px 0; }
+.wp-caption.alignleft { margin: 5px 20px 20px 0; }
+.wp-caption.alignright { margin: 5px 0 20px 20px; }
+.wp-caption img { border: 0 none; height: auto; margin:0; max-width: 98.5%; padding:0; width: auto; }
+.wp-caption p.wp-caption-text { font-size:11px; line-height:17px; margin:0; padding:0 4px 5px; }
+.gallery-caption { font-weight: bold; }
+
+.dslc-widget .tagcloud a,
+.widget .tagcloud a {
+	font-size: 11px !important;
+	color: #fff !important;
+	font-family: Roboto;
+	line-height: 1;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 5px 6px;
+	border-radius: 2px;
+	background: rgb(253, 73, 112);
+	margin-bottom: 4px;
+}
+
+.dslc-widget li:last-child,
+.widget li:last-child {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+	border-bottom: 0 !important;
+}
+
+/**
+ * Loader
+ */
+
+.dslc-loader {
+	margin-top: 100px;
+	background-image: url("images/carousel-loader.gif");
+	width: 32px;
+	height: 32px;
+	border: 0;
+	border-radius: 0;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-ms-animation: none;
+	-o-animation: none;
+	animation: none;
+	position: relative;
+	left: 50%;
+	margin-left: -16px;
+}
+
+.wpcf7-form-control-wrap textarea {
+	width: 100%;
+}
+
+body.dslc-res-phone #dslc-content .dslc-widgets-4-col .dslc-col {
+	width: auto;
+	float: none;
+	padding: 15px 0 !important;
+}
+
+/**
+ * Smaller Monitors
+ */
+
+	@media only screen and ( min-width: 1024px ) and ( max-width: 1280px )  {
+	 	
+		.wrapper,
+		.dslc-modules-section-wrapper,
+		.dslc-add-modules-section  { 
+			width: 940px !important;
+		}
+
+		.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
+			width: auto !important;
+		}
+
+		body.wrapped #page-container {
+			width: 940px !important;
+		}
+
+		body.wrapped .wrapper,
+		body.wrapped .dslc-modules-section-wrapper,
+		body.wrapped .dslc-add-modules-section  { 
+			width: 840px !important;
+		}
+	 
+	}
+
+/**
+ * Tablets
+ */
+
+	@media only screen and ( min-width: 768px ) and ( max-width: 1023px ) {
+
+		.wrapper,
+		.dslc-modules-section-wrapper,
+		.dslc-add-modules-section  { 
+			width: 748px !important;
+		}
+
+		.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
+			width: auto !important;
+		}
+
+		body.wrapped #page-container {
+			width: 748px !important;
+		}
+
+		body.wrapped .wrapper,
+		body.wrapped .dslc-modules-section-wrapper,
+		body.wrapped .dslc-add-modules-section  { 
+			width: 648px !important;
+		}
+
+	}
+
+
+/**
+ * Mobile Portrait and Landscape
+ */
+
+	@media only screen and ( max-width: 767px ) {
+
+		.comments .children {
+			padding: 0 !important;
+		}
+
+	}
+
+
+/**
+ * Mobile Landscape
+ */
+
+	@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+
+		.wrapper,
+		.dslc-modules-section-wrapper,
+		.dslc-add-modules-section  { 
+			width: 420px !important;
+		}
+
+		body.wrapped .wrapper,
+		body.wrapped .dslc-modules-section-wrapper,
+		body.wrapped .dslc-add-modules-section  { 
+			width: 380px !important;
+		}
+
+	}
+
+/**
+ * Mobile Portrait
+ */
+
+ 	@media only screen and ( max-width: 479px ) {
+
+ 		.wrapper,
+		.dslc-modules-section-wrapper,
+		.dslc-add-modules-section  { 
+			width: 300px !important;
+		}
+
+		body.wrapped #page-container {
+			width: 300px !important;
+		}
+
+		body.wrapped .wrapper,
+		body.wrapped .dslc-modules-section-wrapper,
+		body.wrapped .dslc-add-modules-section  { 
+			width: 260px !important;
+		}
+
+	}
