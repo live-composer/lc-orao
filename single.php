@@ -1,11 +1,19 @@
-<?php 
+<?php
+/**
+ * The template for displaying all single posts.
+ *
+ * @link https://livecomposerplugin.com/themes/
+ *
+ * @package Orao
+ */
 
-	get_header();
+get_header(); ?>
 
-		if ( have_posts() ) : while ( have_posts() ) : the_post();
-			the_content();
-		endwhile; endif;
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	get_footer();
-	
-?>
+		<?php the_content(); ?>
+
+	<?php endwhile; ?>
+	<?php endif; ?>
+
+<?php get_footer(); ?>

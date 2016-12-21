@@ -9,7 +9,6 @@
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
 /**
  * Reset CSS
  */
@@ -30,38 +29,38 @@ select {
 	width: 100%;
 }
 
-table { 
-	border-spacing: 0; 
-	margin: 0 0 20px 0; 
-	width: 100%; 
+table {
+	border-spacing: 0;
+	margin: 0 0 20px 0;
+	width: 100%;
 	border-right: 1px solid rgb(224, 224, 224);
 	border-bottom: 1px solid rgb(224, 224, 224);
 }
 
-	table caption {
-		font-weight: bold; 
-		margin-bottom: 10px;
-	}
-	
-	td, th {
-		text-align: center;
-		border: 1px solid rgb(224, 224, 224);
-		border-bottom: 0;
-		border-right: 0;
-		padding: 5px;
-		vertical-align: middle;
-	}
-	
-	thead {
-		background: rgb(26, 188, 156);
-		color: #fff;
-	}
+table caption {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
 
-		thead th {
-			border: 0;
-		}
+td, th {
+	text-align: center;
+	border: 1px solid rgb(224, 224, 224);
+	border-bottom: 0;
+	border-right: 0;
+	padding: 5px;
+	vertical-align: middle;
+}
 
-/** 
+thead {
+	background: rgb(26, 188, 156);
+	color: #fff;
+}
+
+thead th {
+	border: 0;
+}
+
+/**
  * General Typogaphy
  */
 
@@ -69,7 +68,7 @@ body {
 	color: rgb(154, 154, 154);
 	font-size: 15px;
 	font-weight: 400;
-	font-family: Roboto;	
+	font-family: Roboto;
 	line-height: 29px;
 }
 
@@ -166,11 +165,10 @@ html {
 	position: relative;
 }
 
-	.dslc-navigation .menu ul ul { 
-		top: -15px;
-		margin-left: 10px;
-	}
-
+.dslc-navigation .menu ul ul {
+	top: -15px;
+	margin-left: 10px;
+}
 
 /**
  * WordPress Classes
@@ -251,112 +249,110 @@ body.dslc-res-phone #dslc-content .dslc-widgets-4-col .dslc-col {
  * Smaller Monitors
  */
 
-	@media only screen and ( min-width: 1024px ) and ( max-width: 1280px )  {
-	 	
-		.wrapper,
-		.dslc-modules-section-wrapper,
-		.dslc-add-modules-section  { 
-			width: 940px !important;
-		}
+@media only screen and ( min-width: 1024px ) and ( max-width: 1280px )  {
 
-		.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
-			width: auto !important;
-		}
-
-		body.wrapped #page-container {
-			width: 940px !important;
-		}
-
-		body.wrapped .wrapper,
-		body.wrapped .dslc-modules-section-wrapper,
-		body.wrapped .dslc-add-modules-section  { 
-			width: 840px !important;
-		}
-	 
+	.wrapper,
+	.dslc-modules-section-wrapper,
+	.dslc-add-modules-section  {
+		width: 940px !important;
 	}
+
+	.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
+		width: auto !important;
+	}
+
+	body.wrapped #page-container {
+		width: 940px !important;
+	}
+
+	body.wrapped .wrapper,
+	body.wrapped .dslc-modules-section-wrapper,
+	body.wrapped .dslc-add-modules-section  {
+		width: 840px !important;
+	}
+
+}
 
 /**
  * Tablets
  */
 
-	@media only screen and ( min-width: 768px ) and ( max-width: 1023px ) {
+@media only screen and ( min-width: 768px ) and ( max-width: 1023px ) {
 
-		.wrapper,
-		.dslc-modules-section-wrapper,
-		.dslc-add-modules-section  { 
-			width: 748px !important;
-		}
-
-		.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
-			width: auto !important;
-		}
-
-		body.wrapped #page-container {
-			width: 748px !important;
-		}
-
-		body.wrapped .wrapper,
-		body.wrapped .dslc-modules-section-wrapper,
-		body.wrapped .dslc-add-modules-section  { 
-			width: 648px !important;
-		}
-
+	.wrapper,
+	.dslc-modules-section-wrapper,
+	.dslc-add-modules-section  {
+		width: 748px !important;
 	}
 
+	.dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
+		width: auto !important;
+	}
+
+	body.wrapped #page-container {
+		width: 748px !important;
+	}
+
+	body.wrapped .wrapper,
+	body.wrapped .dslc-modules-section-wrapper,
+	body.wrapped .dslc-add-modules-section  {
+		width: 648px !important;
+	}
+
+}
 
 /**
  * Mobile Portrait and Landscape
  */
 
-	@media only screen and ( max-width: 767px ) {
+@media only screen and ( max-width: 767px ) {
 
-		.comments .children {
-			padding: 0 !important;
-		}
-
+	.comments .children {
+		padding: 0 !important;
 	}
 
+}
 
 /**
  * Mobile Landscape
  */
 
-	@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
 
-		.wrapper,
-		.dslc-modules-section-wrapper,
-		.dslc-add-modules-section  { 
-			width: 420px !important;
-		}
-
-		body.wrapped .wrapper,
-		body.wrapped .dslc-modules-section-wrapper,
-		body.wrapped .dslc-add-modules-section  { 
-			width: 380px !important;
-		}
-
+	.wrapper,
+	.dslc-modules-section-wrapper,
+	.dslc-add-modules-section  {
+		width: 420px !important;
 	}
+
+	body.wrapped .wrapper,
+	body.wrapped .dslc-modules-section-wrapper,
+	body.wrapped .dslc-add-modules-section  {
+		width: 380px !important;
+	}
+
+}
 
 /**
  * Mobile Portrait
  */
 
- 	@media only screen and ( max-width: 479px ) {
+@media only screen and ( max-width: 479px ) {
 
- 		.wrapper,
-		.dslc-modules-section-wrapper,
-		.dslc-add-modules-section  { 
-			width: 300px !important;
-		}
-
-		body.wrapped #page-container {
-			width: 300px !important;
-		}
-
-		body.wrapped .wrapper,
-		body.wrapped .dslc-modules-section-wrapper,
-		body.wrapped .dslc-add-modules-section  { 
-			width: 260px !important;
-		}
-
+	.wrapper,
+	.dslc-modules-section-wrapper,
+	.dslc-add-modules-section  {
+		width: 300px !important;
 	}
+
+	body.wrapped #page-container {
+		width: 300px !important;
+	}
+
+	body.wrapped .wrapper,
+	body.wrapped .dslc-modules-section-wrapper,
+	body.wrapped .dslc-add-modules-section  {
+		width: 260px !important;
+	}
+
+}

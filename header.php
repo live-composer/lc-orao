@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template that displays all of the <head> section.
+ *
+ * @link https://livecomposerplugin.com/themes/
+ *
+ * @package Orao
+ */
+
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>

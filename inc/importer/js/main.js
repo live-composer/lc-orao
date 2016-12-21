@@ -81,7 +81,7 @@ jQuery(document).ready(function($){
 
 	jQuery(document).on( 'click', '.lct-importer-close-hook', function(e){
 
-		e.preventDefault();		
+		e.preventDefault();
 
 		jQuery.post(
 
@@ -100,6 +100,5 @@ jQuery(document).ready(function($){
 		);
 
 	});
-	
 
 });
