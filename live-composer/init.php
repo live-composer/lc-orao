@@ -2,6 +2,7 @@
 
 // Enable header/footer functionality.
 define( 'DS_LIVE_COMPOSER_HF', true );
+define( 'DS_LIVE_COMPOSER_HF_AUTO', false );
 
 /**
  * Alter Defaults.
