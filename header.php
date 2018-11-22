@@ -24,3 +24,11 @@
 
 </head>
 <body <?php body_class(); ?>>
+
+<?php
+
+if ( function_exists( 'dslc_hf_get_header' ) ) {
+	echo dslc_hf_get_header();
+}
+
+?>
