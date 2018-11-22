@@ -30,7 +30,7 @@ if ( ! function_exists( 'lct_theme_setup' ) ) {
 		add_theme_support( 'post-thumbnails' );
 
 		// Title tag support.
-		add_theme_support( 'title-tag' );
+		/* add_theme_support( 'title-tag' ); */
 
 		// Enable support for HTML5 markup.
 		add_theme_support( 'html5', array( 'comment-list', 'search-form', 'comment-form' ) );
