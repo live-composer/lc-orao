@@ -245,6 +245,15 @@ body.dslc-res-phone #dslc-content .dslc-widgets-4-col .dslc-col {
 	padding: 15px 0 !important;
 }
 
+.align-center {
+	text-align: center;	
+}
+
+.main {
+	width: 1140px;
+	margin: 0 auto;
+}
+
 /**
  * Smaller Monitors
  */
